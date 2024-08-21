@@ -143,13 +143,21 @@
             }
         ]
     },
+    "editor.fontFamily": "Geist Mono",
+    "scm.inputFontFamily": "Geist Mono",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "chat.editor.fontFamily": "Geist Mono",
+    "debug.console.fontFamily": "Geist Mono",
+    "editor.codeLensFontFamily": "Geist Mono",
+    "notebook.output.fontFamily": "Geist Mono",
+    "markdown.preview.fontFamily": "Geist Mono",
+    "editor.inlayHints.fontFamily": "Geist Mono",
     "material-icon-theme.saturation": 0,
     "vscode_custom_css.imports": [
         "https://raw.githubusercontent.com/glennraya/vscode-settings-json/main/custom-vscode.css",
         "https://raw.githubusercontent.com/glennraya/vscode-settings-json/main/vscode-script.js"
     ],
-    "workbench.colorTheme": "Serendipity Midnight Electric",
-    "workbench.iconTheme": "sweet-vscode-icons",
+    "workbench.iconTheme": "moxer-icons",
     "material-icon-theme.files.color": "#42a5f5",
     "workbench.tree.enableStickyScroll": false,
     "workbench.colorCustomizations": {
@@ -167,4 +175,11 @@
     "php.inlayHints.insertOnDoubleClick": false,
     "php.inlayHints.types.suppressVariableFromLiteral": false,
     "editor.formatOnSave": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "workbench.colorTheme": "Aura Dark",
 }
