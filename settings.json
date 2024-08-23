@@ -37,6 +37,7 @@
     "editor.gotoLocation.multipleTypeDefinitions": "goto",
     // Disable multicursor
     // Typography
+    // Enable emmet
     "editor.fontFamily": "Geist Mono, JetBrains Mono, Fira Code",
     "editor.suggestFontSize": 16,
     "editor.suggestLineHeight": 30,
@@ -67,13 +68,15 @@
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "off",
     "editor.wordBasedSuggestions": "off",
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
     /**
-    * Code
-    **/
+  * Code
+  **/
     // Include "-" in word selection.
+    // Enable templates like ! in html
     "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
     "emmet.includeLanguages": {
+        "html": "html",
         "blade": "html",
         "vue-html": "html",
         "vue": "html",
@@ -84,10 +87,10 @@
         ".php_cs": "php",
         ".php_cs.dist": "php"
     },
-    "editor.wordWrapColumn": 170,
+    "editor.wordWrapColumn": 150,
     /**
-    * PHP
-    **/
+  * PHP
+  **/
     "php.suggest.basic": false,
     // smooth scroll
     "editor.smoothScrolling": true,
@@ -157,7 +160,6 @@
         "https://raw.githubusercontent.com/glennraya/vscode-settings-json/main/custom-vscode.css",
         "https://raw.githubusercontent.com/glennraya/vscode-settings-json/main/vscode-script.js"
     ],
-    "workbench.iconTheme": "moxer-icons",
     "material-icon-theme.files.color": "#42a5f5",
     "workbench.tree.enableStickyScroll": false,
     "workbench.colorCustomizations": {
@@ -181,5 +183,6 @@
         "markdown": false,
         "scminput": false
     },
-    "workbench.colorTheme": "Aura Dark",
+    "workbench.colorTheme": "Celestial",
+    "explorer.confirmPasteNative": false,
 }
