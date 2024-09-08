@@ -49,12 +49,10 @@
     "editor.hover.delay": 500,
     //Clicking enter while typing should accept suggestions
     "editor.acceptSuggestionOnEnter": "on",
-    "search.useIgnoreFiles": false,
+    "search.useIgnoreFiles": true,
     "search.exclude": {
         // Hide everything in /vendor, except the "laravel" and "livewire" folder.
         "**/vendor/{[^l],?[^ai]}*": true,
-        // Hide everything in /public, except "index.php"
-        "**/public/{[^i],?[^n]}*": true,
         "**/node_modules": true,
         "**/dist": true,
         "**/_ide_helper.php": true,
@@ -63,10 +61,15 @@
         "storage": true,
         ".phpunit.result.cache": true
     },
+    /* disable template suggestions */
+    "editor.suggest.showWords": false,
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.preferences.importModuleSpecifierEnding": "minimal",
     "editor.quickSuggestionsDelay": 100,
-    "editor.suggestOnTriggerCharacters": false,
+    "editor.suggestOnTriggerCharacters": true,
     "editor.suggestSelection": "first",
-    "editor.tabCompletion": "off",
+    "editor.tabCompletion": "on",
+    "editor.suggest.delay": 0,
     "editor.wordBasedSuggestions": "off",
     "editor.suggest.snippetsPreventQuickSuggestions": true,
     /**
@@ -87,7 +90,7 @@
         ".php_cs": "php",
         ".php_cs.dist": "php"
     },
-    "editor.wordWrapColumn": 150,
+    "editor.wordWrapColumn": 120,
     /**
   * PHP
   **/
@@ -178,11 +181,16 @@
     "php.inlayHints.types.suppressVariableFromLiteral": false,
     "editor.formatOnSave": true,
     "github.copilot.enable": {
-        "*": true,
+        "*": false,
         "plaintext": false,
         "markdown": false,
         "scminput": false
     },
-    "workbench.colorTheme": "Celestial",
+    "workbench.colorTheme": "Serendipity Midnight Electric",
     "explorer.confirmPasteNative": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.quickSuggestions": {
+        "strings": "on",
+        "comments": "on"
+    },
 }
